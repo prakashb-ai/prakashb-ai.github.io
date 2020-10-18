@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+    text-shadow: 2px 2px 5px blue;
+    Font-size: 50px;
+ }
+  body {
+     background-color: linen;
+ }
+ 
+ .para1 {
+       Font-size: 50px;
+       border: 1px solid;
+       padding: 70px;
+       box-shadow: 20px 10px #000000;
+       background-color: rgba(130, 84, 0, 0.6);
+       border-top-left-radius: 70px;
+       border-bottom-right-radius: 60px;
+       
+       
+ }
+ div .img {
+       margin: 2px;
+       padding: 10px;
+ }
+    
+ div.box {
+       border: 1px solid;
+       padding: 10px;
+       margin-right: 500px;
+       background-color: #FFFFFF;
+       box-shadow: 20px 10px #000000;
+       box-sizing: border-box;
+       align-content: left;
+       float: right;
+ }
+ 
+ div.p {
+        Font-size: 25px;
+        text-align: right;
+        text-color: blue;
+ }
+ 
+ .mypic {
+       color: blue;
+       float: right;
+       
+ } 
