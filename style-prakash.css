@@ -3,7 +3,7 @@
     margin: 0px;
     padding: 10px;
 }
-.container  {
+div.container  {
     padding: 1px;
     width: 15%;
     height: 100%;
@@ -34,7 +34,7 @@ p {
   
   
 }
- .li , a , ul {
+ div.li , a , ul {
      
     color: white;
     text-decoration: none;
@@ -42,13 +42,13 @@ p {
     font-size: 15px;
     list-style-type: none;
  }
-.navbar a {
+div.navbar a {
 
     color: yellow;
     font-size: 10px;
     
 }
-.navbar a:hover{
+div.navbar a:hover{
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 50px;
