@@ -61,8 +61,8 @@ p {
     color: white;
 }
 #r {
-  float: right;
-  padding-top: 200px;
+  float: left;
+  margin-top: 200px;
 
 
 }
