@@ -22,13 +22,7 @@ p {
     text-shadow: 2px 2px 5px blue;
 }
  
-  #image {
-    width: 100px;
-    height: 120px;
-    border-radius: 50%; 
-    Padding-left: 20px;
-    
-}
+  
 .container .navbar {
    margin-top: 35px;             
   text-decoration: none;
