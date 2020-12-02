@@ -1,1 +1,35 @@
 
+* {
+    margin: 0px;
+    padding: 0px;
+    
+}
+.leftbar  {
+    padding: 10px;
+    background-color: black;
+    width: 250px;
+    height: 100vh;
+    box-sizing: border-box;
+}
+#home{
+    color: yellow;
+}
+.leftbar ,ul,li, a {
+    color: white;
+    font-size: medium;
+    padding-top: 8px;
+    line-height: 50px;
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none; 
+    
+}
+ li , ul, a:hover {
+     position: relative;
+     color: yellow;
+     font-size: xx-large;
+    box-sizing: border-box;
+    border-radius: 50px;
+
+     
+}
