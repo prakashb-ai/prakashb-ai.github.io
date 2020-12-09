@@ -1,35 +1,81 @@
-
-* {
+ * {
     margin: 0px;
     padding: 0px;
-    
-}
-.leftbar  {
-    padding: 10px;
-    background-color: black;
-    width: 250px;
-    height: 100vh;
     box-sizing: border-box;
 }
-#home{
+#name {
+    padding-top: 10px;
+    color: red;
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.containeer {
+    background-color: #000;
+    width: 130px;
+    height: 100vh;
+    box-shadow: 10px #ffffff;
+    box-sizing: border-box;
+    display: block;
+}
+#home {
     color: yellow;
 }
-.leftbar ,ul,li, a {
+ a {
     color: white;
-    font-size: medium;
-    padding-top: 8px;
-    line-height: 50px;
+    padding: 25px;
+    text-decoration: none;
     list-style-type: none;
-    text-align: center;
-    text-decoration: none; 
-    
+    line-height: 50px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: .5s;
 }
- li , ul, a:hover {
-     position: relative;
-     color: yellow;
-     font-size: xx-large;
-    box-sizing: border-box;
-    border-radius: 50px;
-
-     
+a:hover{
+    
+    background-color: red;
+    border-radius: 5px;
+    border-width: 8px;
+    font-size: 28px;
+    position: static;
+}
+.background {
+    float: right;
+    position: static;
+    margin-top: -720px;
+    margin-right: auto;
+}
+.profile {
+    float: right;
+    position: static;
+    margin-top: -610px;
+    padding-right: 450px;
+}
+.name {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: none;
+    animation-duration: 4s;
+}
+ #text {
+    color: white;
+    transition: .5s;
+    text-align: center;
+    margin-top: -350px;
+    padding-left: 160px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+#text:hover{
+    cursor: pointer;
+    color: yellow;
+    position: relative;
+    font-size: 85px;
+}
+.about {
+    color: white;
+    padding-right: 45px;
 }
