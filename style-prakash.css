@@ -1,4 +1,5 @@
-  * {
+
+ * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -78,4 +79,5 @@ a:hover{
 .about {
     color: white;
     padding-right: 45px;
+
 }
