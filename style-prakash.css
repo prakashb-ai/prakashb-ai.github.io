@@ -1,47 +1,81 @@
-h1 {
+  * {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#name {
+    padding-top: 10px;
+    color: red;
     text-align: center;
-    text-shadow: 2px 2px 5px blue;
-    Font-size: 50px;
- }
-  body {
-     background-color: linen;
- }
- 
- .para1 {
-       Font-size: 50px;
-       border: 1px solid;
-       padding: 70px;
-       box-shadow: 20px 10px #000000;
-       background-color: rgba(130, 84, 0, 0.6);
-       border-top-left-radius: 70px;
-       border-bottom-right-radius: 60px;
-       
-       
- }
- div .img {
-       margin: 2px;
-       padding: 10px;
- }
+    font-size: x-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.containeer {
+    background-color: #000;
+    width: 130px;
+    height: 100vh;
+    box-shadow: 10px #ffffff;
+    box-sizing: border-box;
+    display: block;
+}
+#home {
+    color: yellow;
+}
+ a {
+    color: white;
+    padding: 25px;
+    text-decoration: none;
+    list-style-type: none;
+    line-height: 50px;
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    transition: .5s;
+}
+a:hover{
     
- div.box {
-       border: 1px solid;
-       padding: 10px;
-       margin-right: 500px;
-       background-color: #FFFFFF;
-       box-shadow: 20px 10px #000000;
-       box-sizing: border-box;
-       align-content: left;
-       float: right;
- }
- 
- div.p {
-        Font-size: 25px;
-        text-align: right;
-        text-color: blue;
- }
- 
- .mypic {
-       color: blue;
-       float: right;
-       
- } 
+    background-color: red;
+    border-radius: 5px;
+    border-width: 8px;
+    font-size: 28px;
+    position: static;
+}
+.background {
+    float: right;
+    position: static;
+    margin-top: -720px;
+    margin-right: auto;
+}
+.profile {
+    float: right;
+    position: static;
+    margin-top: -610px;
+    padding-right: 450px;
+}
+.name {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: none;
+    animation-duration: 4s;
+}
+ #text {
+    color: white;
+    transition: .5s;
+    text-align: center;
+    margin-top: -350px;
+    padding-left: 160px;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+}
+#text:hover{
+    cursor: pointer;
+    color: yellow;
+    position: relative;
+    font-size: 85px;
+}
+.about {
+    color: white;
+    padding-right: 45px;
+}
