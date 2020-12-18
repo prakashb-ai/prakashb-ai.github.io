@@ -1,83 +1,52 @@
 
- * {
-    margin: 0px;
-    padding: 0px;
+@media screen and (max-width:480px)
+{
+    font-size: 18px;
+}
+*,html {
+    margin: 0%;
+    padding: 0%;
+    color: black;
+    list-style-type: none;
+}
+#my {
+    color: whitesmoke;
+    padding-top: 5%;
+}
+
+.sidebar{
+    background-color: black;
     box-sizing: border-box;
-}
-#name {
-    padding-top: 2%;
-    color: red;
-    text-align: center;
-    font-size: x-large;
-    font-weight: bold;
-    font-family: sans-serif;
-}
-.containeer {
-    background-color: #000;
-    width: 35%;
+    box-shadow: 10% white;
+    width: 25%;
     height: 100vh;
-    box-shadow: 10% #ffffff;
-    box-sizing: border-box;
-    display: block;
+}
+.sidebarlinks ,ul ,li {
+    position: relative;
+    z-index: 1;
+    line-height: 240%;
+    padding-top: 5%;
 }
 #home {
-    color: yellow;
+    color: red;
+    border: black;
 }
- a {
-    color: white;
-    padding: 8%;
+.sidebarlinks ,a{
     text-decoration: none;
-    list-style-type: none;
-    line-height: 4;
-    padding-top: 20%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 128%;
-    transition: .5s;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 160%;
+
 }
 a:hover{
-    
-    background-color: red;
-    border-radius: 5%;
-    border-width: 8%;
-    font-size: 28%;
-    position: relative;
-}
-.background {
-    float: right;
-    position: static;
-    margin-top: -72%;
-    margin-right: auto;
-}
-.profile {
-    float: right;
-    position: static;
-    margin-top: -173%;
-    padding-right: 20px;
-}
-.name {
-    width: 10%;
-    height: 10%;
-    background-color: red;
-    animation-name: none;
-    animation-duration: 4s;
-}
- #text {
-    color: white;
+    background-color: green;
     transition: .5s;
-    text-align: center;
-    margin-top: -35%;
-    padding-left: 160%;
-    font-size: 50%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
 }
-#text:hover{
-    cursor: pointer;
-    color: yellow;
-    position: relative;
-    font-size: 85%;
+.image{
+    padding-left: 49%;  
+    margin-top: -170%;
 }
-.about {
-    color: white;
-    padding-right: 45%;
-
+#name {
+    font-size: 350%;
 }
