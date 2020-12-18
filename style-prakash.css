@@ -1,5 +1,5 @@
 
-@media screen and (max-width:480px)
+@media  screen and (max-width:480px)
 {
     font-size: 18px;
 }
@@ -33,6 +33,7 @@
 }
 .sidebarlinks ,a{
     text-decoration: none;
+    line-height: 420%;
     color: white;
     position: relative;
     text-align: center;
@@ -44,16 +45,16 @@ a:hover{
     transition: .5s;
 }
 .image{
-    padding-left: 49%;  
-    margin-top: -170%;
+    padding-left: 53%;  
+    margin-top: -180%;
 }
 #name {
     font-size: 350%;
 }
 #about {
-    padding-top: 10%;
+    padding-top: 5%;
     font-size: 400%;
-    color: black;
+    color:red;
     padding-left: 27%;
     font-weight: bold;
 }
@@ -64,4 +65,27 @@ a:hover{
 #par {
      padding-left: 27%;
      color: black;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#education {
+    color: yellow;
+    text-transform: capitalize;
+    font-size: 400%;
+    font-weight: bold;
+    padding-left: 27%;
+}
+#pic {
+    padding-left: 28%;
+    padding-top: 4%;
+}
+#clg {
+    font-size: 105%;
+    font-weight: bold;
+    padding-left: 14%;
+    text-align: center;
+}
+#branch {
+    padding-left: 28%;
+    font-size: 74%;
+    font-family:sans-serif;
 }
