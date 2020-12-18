@@ -50,3 +50,18 @@ a:hover{
 #name {
     font-size: 350%;
 }
+#about {
+    padding-top: 10%;
+    font-size: 400%;
+    color: black;
+    padding-left: 27%;
+    font-weight: bold;
+}
+#photo {
+    padding-top: 2%;
+    padding-right: -13%;
+}
+#par {
+     padding-left: 27%;
+     color: black;
+}
