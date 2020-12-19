@@ -1,8 +1,8 @@
 
-@media  screen and (max-width:480px)
+@media only screen and (max-width:480px)
 {
-    font-size: 18px;
-}
+   
+
 *,html {
     margin: 0%;
 
@@ -91,4 +91,5 @@ a:hover{
     padding-left: 28%;
     font-size: 74%;
     font-family:sans-serif;
+}
 }
