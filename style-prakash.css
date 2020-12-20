@@ -1,7 +1,6 @@
 
-@media only screen and (max-width:480px)
+@media  screen and (max-width:480px)
 {
-   
 
 *,html {
     margin: 0%;
@@ -47,7 +46,7 @@ a:hover{
     transition: .5s;
 }
 .image{
-    padding-left: 53%;  
+    padding-left: 63%;  
     margin-top: -180%;
 }
 #name {
@@ -91,5 +90,10 @@ a:hover{
     padding-left: 28%;
     font-size: 74%;
     font-family:sans-serif;
+}
+#demo {
+    padding-bottom: 850%;
+    text-align: right ;
+
 }
 }
