@@ -1,6 +1,4 @@
 
-@media  screen and (max-width:480%) 
-{
 
 *,html {
     margin: 0%;
@@ -95,5 +93,4 @@ a:hover{
     padding-bottom: 850%;
     text-align: right ;
 
-}
 }
