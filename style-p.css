@@ -1,58 +1,42 @@
-
-*,html {
-  margin: 0px;
-  padding: 0px;
-  display: flexbox;
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
 }
-
-.name {
-        text-align: center;
-        margin-top: 100px;
-        background-color: white;
-        font-size: large;
-        line-height: 25px;
-        box-sizing: border-box;
-        box-shadow: white;
-      }
-.header {
-  font-size: 30px;
-  font-family: sans-serif, monospace;
+.half{
+    width: 100%;
+    height: 250px;
+    background-color: white;
 }
-.input-1, .input-2{
-          border-radius: 3px;
-          position: relative;
-          box-sizing: border-box;
-          margin-bottom: 5px;
-          padding: 8px 15px;
-          font-size: large;  
-          font-weight: bold;
-          cursor: pointer;            
+#btn{
+    width: 50px;
+    height: 10px;
 }
-#btn {
-  width: 80px;
-  padding: 3px;
-  border-radius: 58px;
+#p{
+    font-size: 30px;
+    margin-top: -5%;
+    margin-left: 47%;
 }
-
-.fontpage {
-  background-color: black;
-  width: 100%;
-  height: 100vh;
-  box-sizing: border-box;
+#profiles{
+    position: relative;
+    margin-left: 1200%;
+    margin-top: -610%;
+    width: 400%;
+    height: 400%;
+    border-radius: 200%;
 }
-.appname{
-  color: white;
-  border: 2px solid white;
-  text-align: center;
-  margin-top: 45px;
-  width: auto;
-  margin-bottom: 5px;
-  border-left: black;
-  border-right: black;
-  padding-top: 25px 8px ;
-  font-size: 34px;
-  font-weight: bold;
-  font-family: cursive;
-}
-
-
+ 
+ .links ul li a{
+     position:relative;
+     color: black;     
+     margin: 2%;
+     line-height: 40px;
+     text-decoration: none;
+     
+ }
+ .links ul li a:hover{
+        color: green;
+        font-size: 200%;
+ }
+ 
