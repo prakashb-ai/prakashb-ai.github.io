@@ -24,9 +24,9 @@
           color: green;
           width: 28px;
 }
-@media  screen and(max-width: 640px){
+@media  screen and(max-width: 480px){
     .side{
-        width: 50%;
+        width: 30%;
     }
 
 }
