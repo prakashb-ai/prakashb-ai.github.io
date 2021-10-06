@@ -7,14 +7,13 @@
 .side{
     background-color: lightgray;
     height: 54px;
-    width: 1390px;
+    width: 100%;
 }
  #links a {
      position: relative;
     color: black;
      margin-left: 18px;
      top: 10px;
-     left: 950px;
      position: relative;
      text-decoration: none;
      
@@ -24,9 +23,9 @@
           color: green;
           width: 28px;
 }
-@media  screen and(max-width: 480px){
-    .side{
-        width: 50%;
+@media  screen (max-width: 360px){
+    .side #links a{
+        width: 20%;
     }
 
 }
