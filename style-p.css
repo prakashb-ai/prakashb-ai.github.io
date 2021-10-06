@@ -23,13 +23,14 @@
           color: green;
           width: 28px;
 }
+
 @media  screen and (max-width: 360px){
     .side{
         width: 50%;
     }
 }
 @media screen and(max-width :360px){
-    .pf{
+    .f{
         width: 30%;
     }
 }
