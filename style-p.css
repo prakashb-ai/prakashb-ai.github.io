@@ -1,12 +1,32 @@
-@media screen and (max-width:1920px){
-    img{
-        
-        width: 100%;
-    }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
 }
-@media screen and (max-width:640px){
-    img{
-        
-        width: 10%;
+.side{
+    background-color: lightgray;
+    height: 54px;
+    width: 1000vw;
+}
+ #links a {
+     position: relative;
+    color: black;
+     margin-left: 18px;
+     top: 10px;
+     left: 950px;
+     position: relative;
+     text-decoration: none;
+     
+}
+ #links a:hover{
+          position: relative;
+          color: green;
+          width: 28px;
+}
+@media  screen and(max-width: 640px){
+    .side{
+        width: 50%;
     }
+
 }
