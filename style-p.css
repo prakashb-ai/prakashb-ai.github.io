@@ -23,8 +23,8 @@
           color: green;
           width: 28px;
 }
-@media  screen (max-width: 360px){
-    .side #links a{
+@media  screen and (max-width: 360px){
+    .side{
         width: 20%;
     }
 
