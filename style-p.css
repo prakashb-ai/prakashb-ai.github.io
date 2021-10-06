@@ -7,7 +7,7 @@
 .side{
     background-color: lightgray;
     height: 54px;
-    width: 1000vw;
+    width: 1390px;
 }
  #links a {
      position: relative;
@@ -26,7 +26,7 @@
 }
 @media  screen and(max-width: 480px){
     .side{
-        width: 30%;
+        width: 50%;
     }
 
 }
