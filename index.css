@@ -8,6 +8,9 @@ button{
     margin: 5px 7px;
     
 }
+i{
+    color: black;
+}
 .btn{
     background-color: white;
     width: 50px;
