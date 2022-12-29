@@ -20,10 +20,24 @@ i{
 .btn:hover{
     background-color: red;
 }
-.btn:active{
+.btn:visited{
     background-color: red;
 }
+.nav-link{
+    font-size: 1.2em;
+    color: black;
+    padding: 0.8em;
+}
+.nav-link:hover{
+    color: green;
+}
+
+#ge{
+    color: green;
+}   
 
 
-   
-   
+
+
+
+
