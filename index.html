@@ -15,20 +15,95 @@
 
     <title>Prakash</title>
 </head>
+<style>
+  #name{
+    font-size: 1em;
+    font-family: sans-serif;
+    padding: 3em;
+}
+.navbar-item{
+    text-align: center;
+}
+.navbar-toggler{
+    margin: 5px 7px;
+    border-color: #fff;
+}
+.navbar-toggler-icon{
+    border-color: #fff;
+    background-color: #fff;
+}
+
+.icons{
+    width: 100%;
+    
+}
+.icons .rounded-circle{
+    margin: 2%;
+    border-width: 1em;
+}
+i{
+    width: 100%;    
+    
+}
+.fa-facebook{
+    color: darkblue;
+}
+.fa-instagram{
+    color: darkorange;
+}
+.fa-linkedin{
+    color: darkblue;
+}
+.fa-github{
+    color: black;
+}
+.fa-envelope{
+    color: red;
+}
+
+
+
+.nav-link{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    color: black;
+    padding: 0.8em;
+}
+.nav-link:hover{
+     background-color: lightgray;
+}
+
+#ge{
+    color: green;
+}   
+.progress{
+  border-radius: 8px;
+}
+#handwriting{
+    font-family:'Brush Script MT', cursive;
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+</style>
 <body>
 
 <!--navbar-->
 
-<nav class="navbar navbar-expand-sm bg-light navbar-light shadow-sm  sticky-top">
+<nav class="navbar navbar-expand-sm">
   <div class="container-fluid ">
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-      <span class="navbar-toggler-icon "></span>
-    </button>
+    <span class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </span>
     <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
 
       <ul class="navbar-nav">
-        <li class="nav-item">
+        <li class="navbar-item">
           <a  class="nav-link" id="ge" href="#page1">Home</a>
         </li>
 
@@ -62,32 +137,38 @@
 
 <!--home-->
 <section id="page1">
-    <div class="mt-3">
-     <div class="container-fluid mt-3 p-2">
+    <div class="mt-2">
+     <div class="container-fluid mt-1 ">
       <div class="row">
-        <div class=" col-sm-6 col-md-6 col-xl-6 col-lg-6">
-            <img src="profile.jpeg" class="rounded-circle shadow bg-white float-end" id="imgs" alt="profile" width="50%" height="100%">
+        <div class=" col-sm-6 col-md-6 col-xl-6 col-lg-6 ">
+            <img src="profile.jpeg" class="rounded-circle shadow bg-white float-end " id="imgs" alt="profile" width="50%" height="100%">
         </div>
         
-        <div class="col-sm-6 col-md-6 col-xl-6 col-lg-6 bg-white pt-1" id="name">
+        <div class="col-sm-6 col-md-6 col-xl-6 col-lg-6 bg-white" id="name">
 
-          <h1 style="width:50% ;">prakash</h1>
-           <p>i am a "FULL STACK DEVLOPER" i like to make <br>
-            new apps for which is use for people </p>
+          <h1>Hi all, I'm Prakash 👋</h1>
+           <p id="handwriting">A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native / Django and some other cool libraries and frameworks.</p>
             <div class="m-1">
               <div class="icons">
-                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="facebook"><a href="https://www.facebook.com/lovely.cintu.98"><i class="fa fa-lg fa-facebook"></i></a></button>
-                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="instagram" ><a href="https://www.instagram.com/mr__prakash_9/"><i class="fa fa-lg fa-instagram"></i></a></button>
-                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="linkedin"><a href="https://www.linkedin.com/in/surya-prakash-48967b226/"><i class="fa fa-lg fa-linkedin"></i></a></button>
-                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="github"><a href="https://prakashb-ai.github.io/"><i class="fa fa-lg fa-github"></i></a></button>     
-                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="gmail"><i class="fa  fa-lg fa-google"></i></button>        
-               </div>
+                <button class="btn shadow rounded-circle" id="icon" data-bs-toggle="tooltip" data-bs-placement="bottom" title="facebook"><a href="https://www.facebook.com/lovely.cintu.98"><i class="fa fa-lg fa-sm fa-lg fa-facebook"></i></a></button>
+                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="instagram" ><a href="https://www.instagram.com/mr__prakash_9/"><i class="fa fa-lg fa-lg fa-lg fa-instagram"></i></a></button>
+                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="linkedin"><a href="https://www.linkedin.com/in/surya-prakash-48967b226/"><i class="fa fa-lg fa-lg fa-lg fa-linkedin"></i></a></button>
+                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="top" title="github"><a href="https://prakashb-ai.github.io/"><i class="fa fa-lg fa-lg fa-lg fa-github"></i></a></button>     
+                <button class="btn shadow rounded-circle" data-bs-toggle="tooltip" data-bs-placement="bottom" title="gmail"><i class="fa fa-lg fa-lg fa-lg fa-envelope" aria-hidden="true"></i></button>        
+              
+              </div>
+                
             </div>
+            
           </div>
+          
         </div>
       </div>
      </div>
      </section>
+
+   
+
      <section id="page2">
       <div class="mt-3">
           <div class="container-fluid p-1">
@@ -233,7 +314,8 @@
          </div>
     </div>
     <h3>react native</h3>
-    <div class="progress">
+    <div class="progress">    width: 50%;
+
       <div class="progress-bar" role="progress" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%
 
    </div>
@@ -246,6 +328,9 @@
 </div>
 
 </section>
+
+
+
 
 </body>
 
